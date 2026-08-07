@@ -547,6 +547,21 @@ namespace LINQ
 
 			#endregion
 
+			#region Question 02
+
+			//2.show page 2 of products, with page size = 5
+
+			//int Page = 2, PageSize = 5;
+
+			//var result = ProductList.Skip((Page - 1) * PageSize).Take(PageSize);
+
+			//foreach (var item in result)
+			//{
+			//	Console.WriteLine(item);
+			//}
+
+			#endregion
+
 		}
 	}
 }
