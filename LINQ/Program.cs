@@ -643,6 +643,25 @@ namespace LINQ
 
 			#endregion
 
+			#region Question 08
+
+			//8.Find all categories that have MORE THAN 3 products
+
+			//var result = ProductList.GroupBy(p => p.Category)
+			//						.Where(G => G.Count() > 3)
+			//						.Select(G => new
+			//						{
+			//							CategoryName = G.Key,
+			//							CategoryCount = G.Count(),
+			//						});
+
+			//foreach (var item in result)
+			//{
+			//	Console.WriteLine($"{item.CategoryName}: {item.CategoryCount}");
+			//}
+
+			#endregion
+
 		}
 	}
 }
