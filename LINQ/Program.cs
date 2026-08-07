@@ -1,4 +1,5 @@
-﻿using static LINQ.DataSources.Source;
+﻿using LINQ.Models;
+using static LINQ.DataSources.Source;
 namespace LINQ
 {
 	internal class Program
@@ -554,6 +555,20 @@ namespace LINQ
 			//int Page = 2, PageSize = 5;
 
 			//var result = ProductList.Skip((Page - 1) * PageSize).Take(PageSize);
+
+			//foreach (var item in result)
+			//{
+			//	Console.WriteLine(item);
+			//}
+
+			#endregion
+
+			#region Question 03
+
+			//3.Take products from the list as long as Their UnitPrice is less than
+			//$25(list is ordered by price).
+
+			//var result = ProductList.TakeWhile(p => p.UnitPrice < 25);
 
 			//foreach (var item in result)
 			//{
