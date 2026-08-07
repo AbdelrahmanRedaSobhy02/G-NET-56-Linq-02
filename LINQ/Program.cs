@@ -1,4 +1,5 @@
 ﻿using LINQ.Models;
+using System.ComponentModel;
 using static LINQ.DataSources.Source;
 namespace LINQ
 {
@@ -585,6 +586,17 @@ namespace LINQ
 			//						.All(p => p.UnitsInStock > 0);
 
 			//Console.WriteLine(result);
+
+			#endregion
+
+			#region Question 05
+
+			//5.Check if the ID list contains 9
+			//int[] ids = { 3, 9, 13, 18 };
+
+			//var flag = ids.Contains(9);
+
+			//Console.WriteLine(flag);
 
 			#endregion
 
