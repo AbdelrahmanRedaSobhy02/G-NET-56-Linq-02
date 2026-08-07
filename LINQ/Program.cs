@@ -600,6 +600,25 @@ namespace LINQ
 
 			#endregion
 
+			#region Question 06
+
+			//6.Group all products by Category and print each group  with its
+			//product count.
+
+			//var resultInGroups = ProductList.GroupBy(p => p.Category)
+			//								.Select(G => new
+			//								{
+			//									Category = G.Key,
+			//									ProductCount = G.Count()
+			//								});
+
+			//foreach (var group in resultInGroups)
+			//{
+			//	Console.WriteLine($"{group.Category}: {group.ProductCount}");
+			//}
+
+			#endregion
+
 		}
 	}
 }
