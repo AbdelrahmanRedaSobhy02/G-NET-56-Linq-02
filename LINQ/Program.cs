@@ -1,4 +1,4 @@
-﻿//using static LINQ.DataSources.Source;
+﻿using static LINQ.DataSources.Source;
 namespace LINQ
 {
 	internal class Program
@@ -534,6 +534,19 @@ namespace LINQ
 			//foreach (var item in result)
 			//	Console.WriteLine(item);
 			#endregion
+
+			#region Question 01
+
+			//1.Get top 3 most expensive products
+
+			//var result = ProductList.OrderByDescending(p => p.UnitPrice).Take(3);
+			//foreach (var item in result)
+			//{
+			//	Console.WriteLine(item);
+			//}
+
+			#endregion
+
 		}
 	}
 }
