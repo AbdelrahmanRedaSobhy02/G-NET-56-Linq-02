@@ -1,5 +1,6 @@
 ﻿using LINQ.Models;
 using System.ComponentModel;
+using System.Diagnostics.Metrics;
 using System.Runtime.ConstrainedExecution;
 using static LINQ.DataSources.Source;
 namespace LINQ
@@ -658,6 +659,33 @@ namespace LINQ
 			//foreach (var item in result)
 			//{
 			//	Console.WriteLine($"{item.CategoryName}: {item.CategoryCount}");
+			//}
+
+			#endregion
+
+			#region Question 09
+
+			//9.Using QUERY SYNTAX, group customers by Country, and for each
+			//group select { Country, Count, TotalOrderValue }.
+
+			//var result = from p in CustomerList
+			//			 group p by p.Country
+			//			 into groups
+			//			 select new
+			//			 {
+			//				 Country = groups.Key,
+			//				 Count = groups.Count(),
+
+			//				 TotalOrderValue =
+			//				 (from c in groups
+			//				  from o in c.Orders
+			//				  select o.Total
+			//				  ).Sum()
+			//			 };
+
+			//foreach (var item in result)
+			//{
+			//	Console.WriteLine($"Country: {item.Country} Count: {item.Count} TotalOrderValue: {item.TotalOrderValue}$");
 			//}
 
 			#endregion
