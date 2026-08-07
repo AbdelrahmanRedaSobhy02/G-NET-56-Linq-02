@@ -1,5 +1,6 @@
 ﻿using LINQ.Models;
 using System.ComponentModel;
+using System.Runtime.ConstrainedExecution;
 using static LINQ.DataSources.Source;
 namespace LINQ
 {
@@ -615,6 +616,29 @@ namespace LINQ
 			//foreach (var group in resultInGroups)
 			//{
 			//	Console.WriteLine($"{group.Category}: {group.ProductCount}");
+			//}
+
+			#endregion
+
+			#region Question 07
+
+			//7.Group products by Category and project only product names per group
+
+			//var resultInGroups = ProductList.GroupBy(p => p.Category)
+			//								.Select(G => new
+			//								{
+			//									CatigoryName=G.Key,
+			//									ProductName = G.Select(p=>p.ProductName)
+			//								});
+
+			//foreach (var group in resultInGroups)
+			//{
+			//	Console.WriteLine($"[{group.CatigoryName}]");
+			//	foreach (var item in group.ProductName)
+			//	{
+			//		Console.WriteLine(item);
+			//	}
+			//	Console.WriteLine();
 			//}
 
 			#endregion
