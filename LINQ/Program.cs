@@ -805,6 +805,21 @@ namespace LINQ
 
 			#endregion
 
+			#region Question 19
+
+			//19.Generate even numbers between 1 and 30.
+
+			//var result = Enumerable.Range(1, 30)
+			//					   .Where(x => x % 2 == 0 )
+			//					   .ToList();
+
+			//foreach (var item in result)
+			//{
+			//	Console.WriteLine(item);
+			//}
+
+			#endregion
+
 		}
 	}
 }
