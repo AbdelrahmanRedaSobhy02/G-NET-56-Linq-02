@@ -793,6 +793,18 @@ namespace LINQ
 
 			#endregion
 
+			#region Question 18
+
+			//18.Generate a multiplication table row for 7
+
+			//var result = Enumerable.Range(1, 10).Select(x => x * 7).ToList();
+			//for (int i = 0; i < result.Count; i++) 
+			//{
+			//	Console.WriteLine($"7 * {i+1} = {result[i]}");
+			//}
+
+			#endregion
+
 		}
 	}
 }
