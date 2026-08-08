@@ -1,8 +1,10 @@
 ﻿using LINQ.Models;
+using System.Collections;
 using System.ComponentModel;
 using System.Diagnostics.Metrics;
 using System.Runtime.ConstrainedExecution;
 using static LINQ.DataSources.Source;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace LINQ
 {
 	internal class Program
@@ -687,6 +689,16 @@ namespace LINQ
 			//{
 			//	Console.WriteLine($"Country: {item.Country} Count: {item.Count} TotalOrderValue: {item.TotalOrderValue}$");
 			//}
+
+			#endregion
+
+			#region Question 10
+
+			//10.Calculate the total number of units in stock across all products
+
+			var result = ProductList.Select(p => p.UnitsInStock).Sum();
+
+			Console.WriteLine(result);
 
 			#endregion
 
