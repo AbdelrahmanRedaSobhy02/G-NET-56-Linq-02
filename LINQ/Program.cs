@@ -703,6 +703,17 @@ namespace LINQ
 
 			#endregion
 
+			#region Question 11
+
+			//11.Find the CHEAPEST and MOST EXPENSIVE product prices
+
+			//var MaxPrice = ProductList.Max(p => p.UnitPrice);
+			//Console.WriteLine(MaxPrice);
+			//var MinPrice = ProductList.Min(p => p.UnitPrice);
+			//Console.WriteLine(MinPrice);
+
+			#endregion
+
 		}
 	}
 }
