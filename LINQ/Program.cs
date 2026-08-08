@@ -782,6 +782,17 @@ namespace LINQ
 
 			#endregion
 
+			#region Question 17
+
+			//17.Try to get the first product with a price > $500.it returns null
+			//instead of throwing.
+
+			//var result = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+
+			//Console.WriteLine(result);
+
+			#endregion
+
 		}
 	}
 }
