@@ -714,6 +714,20 @@ namespace LINQ
 
 			#endregion
 
+			#region Question 12
+
+			//12.Get a distinct list of all product categories
+
+			//var result = ProductList.GroupBy(p=>p.Category)
+			//	.Select(G=>G.Key) .ToList();
+
+			//foreach (var item in result)
+			//{
+			//	Console.WriteLine(item);
+			//}
+
+			#endregion
+
 		}
 	}
 }
