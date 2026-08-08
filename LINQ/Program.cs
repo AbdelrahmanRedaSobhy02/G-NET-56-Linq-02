@@ -1,6 +1,7 @@
 ﻿using LINQ.Models;
 using System.Collections;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Diagnostics.Metrics;
 using System.Runtime.ConstrainedExecution;
 using static LINQ.DataSources.Source;
@@ -696,9 +697,9 @@ namespace LINQ
 
 			//10.Calculate the total number of units in stock across all products
 
-			var result = ProductList.Select(p => p.UnitsInStock).Sum();
+			//var result = ProductList.Select(p => p.UnitsInStock).Sum();
 
-			Console.WriteLine(result);
+			//Console.WriteLine(result);
 
 			#endregion
 
