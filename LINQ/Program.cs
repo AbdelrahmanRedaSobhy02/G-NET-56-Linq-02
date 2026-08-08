@@ -838,6 +838,23 @@ namespace LINQ
 
 			#endregion
 
+			#region Question 21
+
+			//21.Pair each product with a customer(by position)  and produce
+			//a string "ProductName sold to CompanyName".
+
+			//var result01 = ProductList.Select(p => p.ProductName);
+			//var result02 = CustomerList.Select(c => c.CompanyName);
+
+			//var result = result01.Zip(result02, (p, c) => $"{p} sold to {c}");
+
+			//foreach ( var item in result)
+			//{
+			//	Console.WriteLine(item);
+			//}
+
+			#endregion
+
 		}
 	}
 }
